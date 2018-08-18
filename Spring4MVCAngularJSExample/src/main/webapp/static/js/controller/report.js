@@ -79,7 +79,7 @@ angular.module('myApp').controller('ReportController', ['$scope', 'ReportService
 					$scope.issues = d.records;
 				},
 				function(errResponse){
-					console.error('Error while fetching Users');
+					console.error('Error while fetching Records');
 				}
 		)};
 }]);
