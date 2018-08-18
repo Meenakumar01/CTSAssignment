@@ -18,7 +18,7 @@ angular.module('myApp').factory('ReportService', ['$http', '$q', function($http,
                 deferred.resolve(response.data);
             },
             function(errResponse){
-                console.error('Error while creating User');
+                console.error('Error while validating Records');
                 deferred.reject(errResponse);
             }
         );
