@@ -1,0 +1,63 @@
+body, #mainWrapper {
+	height: 70%;
+}
+
+body, .form-control {
+	font-size: 12px !important;
+}
+
+.floatRight {
+	float: right;
+	margin-right: 18px;
+}
+.control-label{
+	margin-top:8px;
+}
+.has-error {
+	color: red;
+}
+
+.formcontainer {
+	background-color: #DAE8E8;
+	padding: 20px;
+}
+
+.tablecontainer {
+	padding-left: 20px;
+}
+
+.generic-container {
+	width: auto;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+.nav-container {
+	width: auto;
+	margin-left: 80px;
+	margin-right: 80px;
+	font-size: 18px;
+}
+.logo {
+	width: 92px;
+	height: 101px;
+	background-image: url('../img/rabobank-logo.png');
+	margin: 0;
+	padding: 0;
+	float:left;
+}
+
+.companyName {
+    padding-top: 50px;
+    font-size: 20px;
+    color: navy;
+    margin-left:200px;
+}
+.menu{
+	margin-top:50px;
+}
+.issues{
+	margin-top:70px;
+}
